@@ -27,17 +27,17 @@ The ONNX Runtime C++ library (pre-built binaries are recommended)
 
 # Usage
 1. Model Training & Export
-Ensure your cleaned_battery_data_with_target.csv file is present.
+   Ensure your cleaned_battery_data_with_target.csv file is present.
 
-Run the provided Python script to train the model and export it to battery_charge_predictor.onnx.
+   Run the provided Python script to train the model and export it to battery_charge_predictor.onnx.
 
 2. C++ Application
-Place the battery_charge_predictor.onnx file and the main.cpp file in your C++ project directory.
+   Place the battery_charge_predictor.onnx file and the main.cpp file in your C++ project directory.
 
-Update the ONNX_RUNTIME_DIR variable in the CMakeLists.txt file to point to your ONNX Runtime installation.
+   Update the ONNX_RUNTIME_DIR variable in the CMakeLists.txt file to point to your ONNX Runtime installation.
 
-Build the project using CMake to generate the executable.
+   Build the project using CMake to generate the executable.
 
-Run the executable to see a sample prediction.
+   Run the executable to see a sample prediction.
 
 This project offers a robust foundation for integrating predictive maintenance and intelligent decision-making into your battery management systems.
